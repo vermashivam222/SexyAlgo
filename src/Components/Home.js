@@ -1,7 +1,7 @@
 import React from 'react'
 import Typical from 'react-typical'
 import "./Home.css"
-
+// newcomment
 export default function Home() {
   return (
     <div className="intro">
