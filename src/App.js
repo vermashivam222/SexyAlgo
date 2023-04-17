@@ -5,6 +5,7 @@ import Pricing from "./Components/Pricing";
 import MarketPlace from "./Components/MarketPlace";
 import Contact from "./Components/Contact";
 import Services from "./Components/Services";
+import Login from "./Components/Login";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/marketplace" element={<MarketPlace />} />
             <Route exact path="/pricing" element={<Pricing />} />
             <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/login" element={<Login />} />
           </Routes>
         </BrowserRouter>
       </>

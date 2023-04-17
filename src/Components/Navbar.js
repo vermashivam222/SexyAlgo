@@ -19,7 +19,7 @@ export default function Navbar() {
 
         </div>
         <div>
-        <button type="button" className="btn btn-outline-danger">Login</button>
+       <a href="/Login"> <button type="button" className="btn btn-outline-info">Login</button></a>
         </div>
         
     </nav>

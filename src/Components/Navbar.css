@@ -7,9 +7,12 @@
     box-sizing: border-box;
 
 }
+/* nav{
+    background-color: black;
+} */
 
 .logo-name{
-    color: white;
+    color: black;
     margin-left: 30px;
 }
 
@@ -37,7 +40,7 @@
 
 .menu-links li a{
     text-decoration: none;
-    color: white;
+    color: black;
     position: relative;
 }
 
