@@ -1,5 +1,5 @@
-import bgVideo from "./images/homevdo.mp4";
 import React from 'react'
+import bgVideo from "./images/homevdo.mp4";
 import Typical from 'react-typical'
 import "./Home.css"
 
