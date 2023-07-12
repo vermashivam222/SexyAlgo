@@ -1,7 +1,7 @@
-import React from "react";
-import Typical from "react-typical";
-import "./Home.css";
 import bgVideo from "./images/homevdo.mp4";
+import React from 'react'
+import Typical from 'react-typical'
+import "./Home.css"
 
 export default function Home() {
   return (
