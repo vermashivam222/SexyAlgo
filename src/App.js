@@ -9,11 +9,12 @@ import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+
 function App() {
   return (
     <div className="App">
-      <>
-        <Navbar />
+      <>         
+       <Navbar />
         <BrowserRouter>
           <Routes>
             <Route exact path="/" element={<Home />} />

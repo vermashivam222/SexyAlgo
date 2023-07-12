@@ -1,0 +1,60 @@
+.main-service{
+    height: 100vh;
+}
+
+.head1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-top: 230px;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+
+.head1 img{
+    padding: 10px;
+}
+
+.head1 h2{
+    text-align: center;
+    color: white;
+}
+
+.head1 p{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.conus{
+    height: 50px;
+    background-color: #0D6EFD;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.bgpic{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.second{
+    margin-bottom: 40px;
+}
+
+.conus a{
+    color: white;
+    text-decoration: none;
+}

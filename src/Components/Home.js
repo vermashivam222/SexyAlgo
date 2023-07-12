@@ -1,11 +1,18 @@
-import React from 'react'
-import Typical from 'react-typical'
-import "./Home.css"
+import React from "react";
+import Typical from "react-typical";
+import "./Home.css";
+import bgVideo from "./images/homevdo.mp4";
 
 export default function Home() {
   return (
     <div className="intro">
-      <span className="intro-typ">
+      <div className="homeshow">
+      <video className="videoTag" autoPlay loop muted>
+        <source src={bgVideo} type="video/mp4" />
+      </video>
+      <h1 className="welcome">Welcome</h1>
+      <p>
+      <div className="intro-typ">
         <Typical
         loop={Infinity}
         steps={[
@@ -18,13 +25,12 @@ export default function Home() {
           "Fourth Word",
           1000,
           "Fifth Word",
-          1000,
+          1000,        
         ]}
-        />
-
-      </span>
-      
+          />
+      </div>
+      </p>
+      </div>
     </div>
-  )
+  );
 }
-

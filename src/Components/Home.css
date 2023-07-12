@@ -1,19 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: white;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+video {
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
 }
 
-.intro{
-
-    display: inline-block;
-    float: left;
-    margin-left: 280px ;
-    margin-top: 100px;
-    font-size: larger;
+.intro-typ {
+  color: aqua;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 350px;
+  margin-top: 20px;
 }
 
-.intro-typ{
-    color: aqua;
+.welcome {
+  color: white;
+  margin-left: 300px;
+  margin-top: 150px;
+  font-size: 80px;
+  display: inline-block;
 }
+
+@media (max-width: 1080px) {
+  .welcome {
+    font-size: 40px;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 1080px) {
+  .intro-typ {
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+}
+
+.homeshow{
+    height: 100vh;
+}
+
+
