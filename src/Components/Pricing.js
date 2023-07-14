@@ -100,7 +100,7 @@ export default function Pricing() {
                     </div>
                     <div class="price">
                       <h4>
-                        <sup>₹</sup>300/ <h5>Month</h5>
+                        <sup>₹</sup>35,000
                       </h4>
                     </div>
                     <div class="option">
