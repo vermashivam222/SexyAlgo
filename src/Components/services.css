@@ -1,6 +1,4 @@
-.main-service{
-    height: 100vh;
-}
+
 
 .head1{
     display: flex;
@@ -32,6 +30,8 @@
     color: white;
 }
 
+
+
 .conus{
     height: 50px;
     background-color: #0D6EFD;
@@ -41,6 +41,37 @@
     margin-right: auto;
     border-radius: 10px;
 }
+
+.head2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-top: 230px;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+
+.head2 img{
+    padding: 10px;
+}
+
+.head2 h2{
+    text-align: center;
+    color: white;
+}
+
+.head2 p{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
 
 .bgpic{
     z-index: -1;

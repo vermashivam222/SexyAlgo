@@ -104,6 +104,7 @@ main-contact {
   left:0;
   background: #015871;
   position: fixed;
+  z-index: 0;
 }
 
 .wave {

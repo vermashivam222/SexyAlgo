@@ -5,7 +5,7 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <nav className="main-nav">
-      <div className="logo-name">SexyAlgo.</div>
+      <div className="logo-name">The Ace Algo.</div>
       <div className="menu-links">
         <ul>
           <li>

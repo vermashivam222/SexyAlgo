@@ -27,7 +27,7 @@ export default function Services() {
       </div>
       <div className="second">
         <Fade right>
-          <div className="head1">
+          <div className="head2">
             <img src={img} alt="" />
             <h2>Algo Trading</h2>
             <p>

@@ -1,0 +1,12 @@
+.t1{
+  margin-top: 80px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.tt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
