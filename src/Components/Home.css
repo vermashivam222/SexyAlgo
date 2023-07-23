@@ -36,7 +36,10 @@ video {
 
 .ncard{
   height: 100vh;
-  background-color: white;
+  background-color: #1D2228;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 1080px) {
@@ -57,4 +60,65 @@ video {
     height: 100vh;
 }
 
+.square{
+  background-color: aqua;
+  width: 25%;
+  height: 50vh;
+  flex-direction: row;
+  border-radius: 6px;
+}
 
+.glbimg{
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+  height: 50%;
+  margin-top: 30px;
+}
+
+.png{
+  padding-top: 20px;
+}
+
+.pnghd{
+  color: white;
+  text-align: center; 
+}
+
+.png-info{
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+.txt-hvr{
+z-index: 10;
+font-size: 20px;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+position: relative;
+margin-top: 90px;
+display: flex;
+align-items: center;
+overflow: hidden;
+opacity: 1;
+animation-duration: 0.5s;
+animation-name: hv;
+/* visibility: hidden; */
+display: none;
+}
+
+.square:hover .txt-hvr{
+  /* visibility: visible; */
+  display: flex;
+  transition: 0.3s;
+  margin-top: -282px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.842);
+}
+
+@keyframes hv{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}

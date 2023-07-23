@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-.body1{
+.ftr{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
-    position: static;
+	position: relative;
     z-index: 1;
     bottom: 0;
 }
@@ -80,6 +80,24 @@ ul{
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
+}
+
+.social h6{
+	color:  #bbbbbb;
+}
+
+.city{
+	color: #bbbbbb;
+}
+
+.footer-col img{
+	width: 100%;
+	margin-left: 40px;
+	margin-top: -20px;
+}
+
+.ace2{
+	vertical-align: top;
 }
 
 /*responsive*/

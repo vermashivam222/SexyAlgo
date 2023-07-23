@@ -62,11 +62,12 @@ textarea{
 form{
   z-index: 1;
   text-align: center;
-
+  margin-bottom: 30px;
 }
 
 form p{
     padding: 5px;
+    visibility: hidden;
   }
 
 .main-contact {

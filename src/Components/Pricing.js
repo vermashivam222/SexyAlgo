@@ -19,7 +19,7 @@ export default function Pricing() {
                     </div>
                     <div class="price">
                       <h4>
-                        <sup>₹</sup>12999
+                        <sup>₹</sup>12,999
                       </h4>
                     </div>
                     <div class="option">
@@ -57,7 +57,7 @@ export default function Pricing() {
                     </div>
                     <div class="price">
                       <h4>
-                        <sup>₹</sup>22999
+                        <sup>₹</sup>22,999
                       </h4>
                     </div>
                     <div class="option">
@@ -150,7 +150,7 @@ export default function Pricing() {
                     </div>
                     <div class="price">
                       <h4>
-                        <sup>₹</sup>15000
+                        <sup>₹</sup>15,000
                       </h4>
                     </div>
                     <div class="option">
@@ -193,7 +193,7 @@ export default function Pricing() {
                     </div>
                     <div class="price">
                       <h4>
-                        <sup>₹</sup>25000
+                        <sup>₹</sup>25,000
                       </h4>
                     </div>
                     <div class="option">
@@ -236,7 +236,7 @@ export default function Pricing() {
                     </div>
                     <div class="price">
                       <h4>
-                        <sup>₹</sup>90000
+                        <sup>₹</sup>90,000
                       </h4>
                     </div>
                     <div class="option">
