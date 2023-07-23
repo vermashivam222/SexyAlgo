@@ -61,7 +61,7 @@ video {
 }
 
 .square{
-  background-color: aqua;
+  background-color: #75C2F6;
   width: 25%;
   height: 50vh;
   flex-direction: row;
@@ -92,7 +92,7 @@ video {
 
 
 .txt-hvr{
-z-index: 10;
+z-index: 1;
 font-size: 20px;
 text-align: center;
 padding-left: 10px;
