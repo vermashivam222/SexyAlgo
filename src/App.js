@@ -8,7 +8,7 @@ import Services from "./Components/Services";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import Terms from "./Components/Terms";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter,Route, Routes } from "react-router-dom";
 import Footer from "./Components/Footer";
 
 
