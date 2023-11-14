@@ -2,12 +2,11 @@ import React from "react";
 import "./MarketPlace.css";
 import img1 from "./images/asset 2.png";
 import img2 from "./images/asset 40.png";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 
 export default function MarketPlace() {
   return (
     <div className="header">
-      <Fade>
       <div className="job">
         <div className="content-left">
           <img src={img1} alt="" />
@@ -22,8 +21,6 @@ export default function MarketPlace() {
           </p>
         </div>
       </div>
-      </Fade>
-      <Fade>
       <div className="job2">
         <div className="job-left">
           <h1>-Our Vision-</h1>
@@ -40,7 +37,6 @@ export default function MarketPlace() {
           <img src={img2} alt="" />
         </div>
       </div>
-      </Fade>
     </div>
   );
 }

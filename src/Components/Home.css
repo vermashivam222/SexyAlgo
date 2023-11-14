@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
 
 video {
-    position: fixed;
+    position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -42,7 +42,7 @@ video {
   justify-content: space-evenly;
 }
 
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
   .welcome {
     font-size: 40px;
     margin-left: 100px;
@@ -54,7 +54,7 @@ video {
     margin-left: 120px;
     margin-top: 10px;
   }
-}
+} */
 
 .homeshow{
     height: 100vh;
@@ -98,7 +98,6 @@ text-align: center;
 padding-left: 10px;
 padding-right: 10px;
 position: relative;
-margin-top: 90px;
 display: flex;
 align-items: center;
 overflow: hidden;
@@ -113,7 +112,7 @@ display: none;
   /* visibility: visible; */
   display: flex;
   transition: 0.3s;
-  margin-top: -282px;
+  margin-top: -281px;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.842);
 }
@@ -121,4 +120,52 @@ display: none;
 @keyframes hv{
   0%{opacity: 0;}
   100%{opacity: 1;}
+}
+
+
+
+/* responsive */
+
+
+@media (max-width: 768px) {
+  .welcome {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+  .intro-typ {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .txt {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .ncard {
+    flex-direction: column;
+    padding: 20px;
+    height: 130vh;
+  }
+  b{
+    font-size: 20px;
+  }
+
+  .square {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  .square:hover .txt-hvr{
+    /* visibility: visible; */
+    display: flex;
+    transition: 0.3s;
+    margin-top: -229px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.842);
+  }
 }

@@ -55,7 +55,8 @@ export default function Footer() {
                   Near Chatinya Tower Daldal seoni, vidhan sabha road.
                 </h6>
                 <p className="city">Raipur,Chhattisgarh</p>
-                <h6>6266722920</h6>
+                <h6>7805940806</h6>
+                <h6>9770395658</h6>
               </div>
             </div>
             <div className="footer-col">

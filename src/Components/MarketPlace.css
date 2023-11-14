@@ -31,6 +31,9 @@
     padding-left: 100px;
 } */
 
+
+/* main code */
+
 .header{
     padding: 50px;
     padding-bottom: 50px;
@@ -45,8 +48,8 @@
 }
 
 .content-left img{
-    width: 500px;
-    height: auto;
+    width: 100%;
+    height: 100%;
     padding-top: 100px;
     padding-left: 60px;
 }
@@ -72,8 +75,8 @@
 }
 
 .job-right img{
-    width: 500px;
-    height: auto;
+    width: 100%;
+    height: 100%;
     padding-top: 100px;
 }
 
@@ -94,7 +97,62 @@
 
 
 
+/* responsive */
 
+/* Common styles for both job sections */
+
+  /* Responsive styles for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .header {
+      padding: 30px; /* Reduce the padding for the header */
+    }
+  
+    .job {
+      flex-direction: column; /* Display as a column on smaller screens */
+      padding-top: 40px; /* Reduce the top padding */
+    }
+    .job2 {
+        flex-direction: column; /* Display as a column on smaller screens */
+        padding-top: 40px; /* Reduce the top padding */
+      }
+  
+    .content-left img{
+            padding-top: 100px; /* Reduce the top padding */
+            margin-left: -30px;
+          }
+
+    .job-right img {
+      padding-top: 100px; /* Reduce the top padding */
+      margin-left: -30px;
+      margin-top: -1000px;
+    }
+  
+    .job-left{
+        padding-top: 250px;
+    }
+
+
+    .content-right h1,
+    .job-left h1 {
+      font-size: 24px; /* Reduce the font size for headings */
+      padding-left: 20px; /* Adjust the left padding for headings */
+      padding-top: 20px; /* Reduce the top padding for headings */
+    }
+
+    .content-right p,
+    .job-left p {
+      font-size: 14px; /* Reduce the font size for paragraphs */
+      padding: 10px; /* Reduce the padding for paragraphs */
+      padding-top: 20px; /* Reduce the top padding for paragraphs */
+      width: 100%; /* Make paragraphs full width on smaller screens */
+      max-width: none; /* Remove the max-width for paragraphs */
+      padding-left: 20px; /* Adjust the left padding for paragraphs */
+      padding-right: 20px; /* Adjust the right padding for paragraphs */
+    }
+
+
+  }
+  
 
  
 

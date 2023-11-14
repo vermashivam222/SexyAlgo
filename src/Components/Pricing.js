@@ -7,7 +7,9 @@ export default function Pricing() {
     <div>
       <section>
         <Fade>
-          <h1>Find a plan that's right for you.</h1>
+          <div className="plan-head">
+          <h1 >Find a plan that's right for you.</h1>
+          </div>
           <div class="container-fluid">
             <div class="container">
               <div class="row">

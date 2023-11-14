@@ -79,9 +79,111 @@ a:hover:after{
     padding-right: 20px;
 }
 
-@media (max-width: 1080px){
+.toggle-btn{
+    display: none;
+    color: white;
+}
+  
+  .bar {
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .show .menu-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .show .menu-links ul li {
+    margin: 20px 0;
+  }
+
+
+  .toggle-btn.show .bar:nth-child(1) {
+    transform: translateY(8px) rotate(-45deg);
+  }
+  
+  .toggle-btn.show .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .toggle-btn.show .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg);
+  }
+
+
+  /* dropdown */
+
+  .dropdown_menu {
+    position: absolute;
+    right: 2rem;
+    top: 70px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 1; /* Set initial opacity to 1 */
+    pointer-events: auto; /* Enable pointer events */
+    transform: translateY(0); /* Set initial transform to 0 */
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .show .dropdown_menu {
+    animation: fadeIn 0.5s; /* Apply the fadeIn animation to show the dropdown with a fade-in effect */
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .dropdown_menu li{
+    padding: 0.7rem;
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown_menu li a{
+    text-decoration: none;
+    color: aqua;
+  }
+ 
+  /* animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-10px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+ 
+
+
+
+
+
+  /* responsive */
+
+
+/* @media (max-width: 1080px){
     .logo-name{
-        font-size: 25px;
+        font-size: 17px;
+        margin-left: -2px;
     }
 
     .menu-links li a{
@@ -97,6 +199,24 @@ a:hover:after{
     .btn{
         display: none;
     }
-}
+} */
 
 
+@media (max-width: 960px) {
+    .logo-name {
+      font-size: 17px;
+      margin-left: -2px;
+    }
+  
+    .menu-links {
+      display: none;
+    }
+  
+    .toggle-btn{
+        display: block;
+        color: white;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    
+ }

@@ -142,3 +142,42 @@ main-contact {
   }
 }
 
+
+/* responsive */
+
+/* Existing styles ... */
+
+/* Responsive styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .contact-box {
+    flex-direction: column; /* Display form elements in a column on smaller screens */
+    height: auto; /* Adjust the height for smaller screens */
+    margin: 0 10px; /* Add some margin on both sides */
+    padding: 10px; /* Adjust the padding for smaller screens */
+    margin-bottom: 20px;
+  }
+
+  .contact-box input,
+  .contact-box textarea {
+    width: 100%; /* Make input fields and textarea full width on smaller screens */
+  }
+
+  .btn2 {
+    width: 100%; /* Make the submit button full width on smaller screens */
+  }
+
+  .ocean {
+    display: none; /* Hide the ocean wave on smaller screens */
+  }
+
+  .main-contact .heading{
+    margin-top: -50px; /* Reduce the padding for heading and pass on smaller screens */
+  }
+  .main-contact .pass{
+    display: none;
+  }
+
+  .main-contact .heading {
+    font-size: 30px; /* Reduce the font size for the heading on smaller screens */
+  }
+}
