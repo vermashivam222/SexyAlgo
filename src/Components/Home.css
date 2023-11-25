@@ -112,7 +112,8 @@ display: none;
   /* visibility: visible; */
   display: flex;
   transition: 0.3s;
-  margin-top: -281px;
+  margin-top: -289px;
+  border-radius: 6px;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.842);
 }
